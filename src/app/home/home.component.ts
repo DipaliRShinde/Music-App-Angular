@@ -32,4 +32,8 @@ export class HomeComponent implements OnInit {
     this.musicService.addToWishlist(music).subscribe();
     console.log("Add Wishlist Working");
   }
+
+  showDetails(value): any{
+    this.route.navigateByUrl("/details/"+value.artist.name+"/"+value.name);
+  }
 }

@@ -10,6 +10,7 @@ import {FormsModule}  from '@angular/forms';
 import { MusicService } from './music.service';
 import { HttpClientModule }    from '@angular/common/http';
 import { WishlistComponent } from './wishlist/wishlist.component';
+import { DetailsComponent } from './details/details.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { WishlistComponent } from './wishlist/wishlist.component';
     NavbarComponent,
     SearchComponent,
     WishlistComponent,
+    DetailsComponent,
   ],
   imports: [
     BrowserModule,
